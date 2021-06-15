@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .linea {
+    border-top: 3px solid #f8c000;
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+
+  body{
+    font-family: $font_site;
+  }
+.fontMenu{
+  color :black ;
+}
+
+.parrafo_logo{
+  font-family: $font_site;
+  color: $color_font_titulos;
+  font-weight: bold;
+  font-size: 25px;
+}
+  .menu{
+   background-color :#ffe48c;
+   margin-bottom: 15px;
+  }
+
+.menu__logo{
+  width:100px;
+}
+
+.seleccionObras{
+  width:280px;
+}
+.menu li{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer{
+  margin-top: 10px;
+  padding-top: 10px;
+  
+}
+.foterPage{
+  /*border-top:  #f8c000 solid 3px;*/
+  background-color :white;
+  }
+  .foter_logo{
+    width: 100px;
+  }
+.foterPage__link{
+    color:black;  
+  }
+.foterPage__imgSocial{
+    width:32px ;
+    height:auto;
+  }
+
+
+.social{
+   margin: 5px;
+  padding-right: 15px;
+}
+.contacto{
+  @extend .social;
+}
+.sectionBody{
+  padding: 5px;
+}
+/* modulo sobre mi*/
+.sectionSobreMi{
+    padding: 5px;
+  }
+.titulos{
+  text-align: left;
+  margin: 30x 0 30px;
+  font-family: $font_site;
+  color:$color_font_titulos;
+  font-weight: bold;
+  font-size: 30px  !important ;
+}
+
+.sectionSobreMi__frase{
+  text-align:center;
+  margin: 20px 0 10px;
+  font-family: $font_site;
+  color: $color_font_titulos;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.sectionSobreMi__img{
+    float: right    ;
+    vertical-align: middle;
+    width: 300px;
+    margin: 5px 10px;
+    padding-left: 30px;
+
+}
+
+.contacto a{
+  color: black;
+}
+  
+.sectionSobreMi__parrafo{
+    color: $color_font;
+    text-align: justify;
+    font-family: $font_site;
+  }
+/* modulo Servicios*/
+.sectionServicio{
+    padding: 5px;
+  }
+.sectionServicio_img{
+  float: left    ;
+  vertical-align: middle;
+  width: 500px;
+  margin: 5px 10px;
+  padding-left: 30px;
+} 
+.sectionServicioParrafo{
+  @extend .sectionSobreMi__parrafo;
+}
+  .sectionNoticia{
+    @extend .sectionSobreMi;
+  }
+.sectionNoticia__img{
+    float: right    ;
+    vertical-align: middle;
+    width: 500px;
+    margin: 5px 10px;
+    padding-left: 30px;
+    //transform: skewY(10deg);
+  }
+.sectionNoticia__parrafo{
+    @extend .sectionSobreMi__parrafo;
+  }
+
+.notiEvento{
+  padding: 40px;
+}
+
+  .gallery{
+    margin: 10px 50px;
+    text-align: center;
+  }
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(0%);
+    transition: 1s;
+  }
+  
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+  
+  /* Make the image fully responsive */
+  
+.container-obra{
+    width: 30%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+    position: relative;
+  }
+.carousel-item{
+    text-align: center;
+     min-height: 180px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+  }
+  .carousel-indicators li, .carousel a{
+    cursor: pointer;
+  }
+ 
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.image {
+  opacity: 1;
+  display: block;
+  /*width: 100%;
+  height: auto;*/
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.fadeBox:hover .image {
+  opacity: 0.3;
+}
+
+.fadeBox:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  padding: 16px 32px;
+}
+
+.text a{
+  color:black;
+}
+s.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+
+//animaciones y transiciones
+.sobreMi{
+  animation-duration: 3.5s;
+  animation-name: mostrar;
+}
+@keyframes mostrar{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.gracias{
+  color:black;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 25px;
+  animation-duration: 4s;
+  animation-name: mostrarGracias;
+}
+
+@keyframes mostrarGracias{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+
