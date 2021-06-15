@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Keywords" content="OBRAS, PINTURAS, VENTAS + ARTE, ARTE ABSTRACTO, ARTE CONTEMPORANEO, ARTE LATINO, ARTE CORDOBA, FOTOGRAFIAS, COLOR">
+		<meta name="description" content="Sitio web de la artista plástica Natali Bonaudi. Encontrarás un recorrido visual por su galería de obras, conocerás su trayectoria académica y pictórica, y los medios de contacto con la artista.">
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/sweetalert2.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../sass/css/main.css" type="text/css" media="all">
+		<link rel="stylesheet" type= "text/css" href="../css/lightbox.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500;700&family=Pacifico&family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+		<title>Galeria de Obras -Natali Bonaudi Arte.</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-6 ">
+                    <div class="row">
+                        <div class="d-flex justify-content-left">
+                            <a class="navbar-brand" href="../index.html">
+                                <img src="../img/Logo.png" alt="logo" class="img-fluid menu__logo d-none d-sm-none d-md-none d-lg-block ">
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-end">
+                            <p class="parrafo_logo d-none d-sm-none d-md-none d-lg-block">Natali Bonaudi Arte</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="d-flex justify-content-end">
+                        <div class="social">
+                            <a href="https://www.linkedin.com/in/natali-bonaudi-27b75a145/" target="_blank"><img src="../img/LinkedIn.png" class="img-fluid" alt="Linkedin"  width="32" height="auto"/></a>
+                        </div>
+                        <div class="social">
+                            <a href="https://www.instagram.com/natalibonaudi.arte/?hl=es-la" target="_blank"><img src="../img/Instagram.png" class="img-fluid" alt="Instagram"  width="32" height="auto"/></a>    
+                        </div>
+                        <div class="social">
+                            <a href="https://www.facebook.com/natybonaudi" target="_blank"><img src="../img/facebook.png" class="img-fluid" alt="Facebook"  width="32" height="auto"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        	        
+    </header>
+    <nav class="navbar navbar-expand-lg  navbar-light sticky-top menu">
+        <div class="d-flex justify-content-center">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/Logo.png" alt="logo" class="img-fluid  d-md-block  d-lg-none"  width="70" height="auto">
+            </a>
+        </div>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                       <img src="../img/cart.jpeg" class="nav-link dropdown-toggle img-fluid" height="70px"
+                        width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                    <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                        <table id="lista-carrito" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+
+                        <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                        <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                            Compra</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link fontMenu" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link fontMenu" href="../html/sobremi.html">Sobre Mi</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link fontMenu" href="../html/NoticiasyEventos.html">Eventos y Noticias</a>
+                </li>
+                <li class="nav-item  dropdown">
+                    <a class="nav-link dropdown-toggle fontMenu" href="#" id="navbardrop" data-toggle="dropdown">Obras</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item fontMenu" href="../html/pintura.html">Pinturas</a>
+                        <a class="dropdown-item fontMenu" href="../html/fotografias.html">Fotografias</a>
+                        <a class="dropdown-item fontMenu" href="../html/dibujos.html">Dibujo</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link fontMenu" href="../html/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h1 class="display-4 mt-4">Galeria de Obras</h1>
+            <p class="lead">Selecciona una de nuestras Obras</p>
+        </div>
+
+        <div class="container" id="lista-productos">
+            
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Dibujos</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/Obras/DIBUJO/dibujo.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">5000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>LO INTENSO 1</li>
+                            <li>28cm x 40cm</li>
+                            <li>Año 2019</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Dibujos</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/Obras/DIBUJO/dibujo_2.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">6000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>LO INTENSO 2</li>
+                            <li>25cm x 40cm</li>
+                            <li>Año 2019</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="2">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Dibujos</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/Obras/DIBUJO/dibujo_3.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">8000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>LO INTENSO 3</li>
+                            <li>25cm x 40cm</li>
+                            <li>Año 2019</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="3">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Dibujos</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/Obras/DIBUJO/dibujo_4.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">9900</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>LO INTENSO 4</li>
+                            <li>25cm x 40cm</li>
+                            <li>Año 2019</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="4">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Dibujos</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/Obras/DIBUJO/dibujo_5.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">6000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>LO INTENSO 5</li>
+                            <li>40cm x 28cm</li>
+                            <li>Año 2019</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="5">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Dibujos</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/Obras/DIBUJO/dibujo_6.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">6000</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>LO INTENSO 6</li>
+                            <li>40cm x 28cm</li>
+                            <li>Año 2019</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="6">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Dibujos</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/Obras/DIBUJO/dibujo_7.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">6600</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>LO INTENSO 7</li>
+                            <li>40cm x 28cm</li>
+                            <li>Año 2019</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="7">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Dibujos</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/Obras/DIBUJO/dibujo_8.jpg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">7500</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>LO INTENSO 8</li>
+                            <li>40cm x 28cm</li>
+                            <li>Año 2019</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="8">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class=" foterPage " >
+            <div class="d-flex justify-content-center">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/Logo.png" alt="logo" class="img-fluid foter_logo">
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="foterPage__link" href="../index.html" target="_self">Natali Bonaudi Arte.</a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/natali-bonaudi-27b75a145/" target="_blank"><img src="../img/LinkedIn.png" class="img-fluid foterPage__imgSocial" alt="Linkedin" /></a>
+                </div>
+                <div class="social">
+                    <a href="https://www.instagram.com/natalibonaudi.arte/?hl=es-la" target="_blank"><img src="../img/Instagram.png" class="img-fluid foterPage__imgSocial" alt="Instagram"/></a>    
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/natybonaudi" target="_blank"><img src="../img/facebook.png" class="img-fluid foterPage__imgSocial" alt="Facebook"/></a>
+                </div>
+
+            </div>      
+        </div>
+        <div class="container  d-flex justify-content-center">
+            <div class="row">
+              <div >
+                <p>&copy; Copyright 2020 - Natali Bonaudi. Todos los derechos reservados</p>    
+              </div>
+            </div>
+        </div>   
+    </footer>
+    
+
+</body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/sweetalert2.min.js"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/pedido.js"></script>
+</html>
